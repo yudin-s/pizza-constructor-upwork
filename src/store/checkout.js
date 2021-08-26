@@ -16,8 +16,8 @@ const checkout = {
     setPizza: (state, pizza) => (state.pizza = pizza),
   },
   actions: {
-    addPizza({ dispatch, getters }, payload) {},
-    removePizza({ dispatch }, payload) {},
+    addPizza() {},
+    removePizza() {},
   },
 };
 

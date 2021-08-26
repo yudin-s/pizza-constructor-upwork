@@ -76,9 +76,9 @@ const options = {
     toppingsMax: 6,
   }),
   getters: {
-    size: (state) => state.size,
-    toppings: (state) => state.size,
-    vat: (state) => state.vat,
+    getSizes: (state) => state.size,
+    getToppings: (state) => state.size,
+    vat: (state) => state.VAT,
     toppingsMax: (state) => state.toppingsMax,
   },
 };
